@@ -8,11 +8,11 @@ Users should be able to login with valid credentials and recieve related error m
 
 ## Requirement 2: Navbar
 
-Users should be able to interract with the navbar and navigate to related pages
+Users should be able to interact with the navbar and navigate to related pages.
 
 ## Requirement 3: Logout
 
-Users should be able to logout from their account
+Users should be able to logout from their account.
 
 ## Requirement 4: Product catalog
 
@@ -41,4 +41,5 @@ Users should be able to:
 
 ## Requirement 8: Checkout process
 
-Users should be able to complete checkout successfuly after providing personal information that is needed.
+1. Users should be able to complete checkout successfuly after providing personal information that is needed.
+2. After the completion of the checkout process users should recieve confirmation message.
