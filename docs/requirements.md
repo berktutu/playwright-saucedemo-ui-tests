@@ -2,7 +2,7 @@
 
 The requirements are based on exploration and observed application behaviour.
 
-## REQ-01: User login
+## REQ-01: Valid user login
 
 Users should be able to login with valid credentials.
 
