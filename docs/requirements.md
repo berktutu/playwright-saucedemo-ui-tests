@@ -33,6 +33,7 @@ Users should be able to:
 1. View products from the product catalog
 2. Add products from the product catalog
 3. Remove products from the product catalog.
+4. Add to cart and remove buttons should be updated as the item is added and removed.
 
 ## REQ-09: Item listing
 
@@ -44,7 +45,8 @@ Users should be able to:
 
 1. View the content of the selected item from the catalog.
 2. Add and remove the item from the cart.
-3. Return back to the products page.
+3. Add to cart and remove buttons should be updated as the item is added and removed.
+4. Return back to the products page.
 
 ## REQ-11: Shopping cart
 
