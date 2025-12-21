@@ -40,58 +40,74 @@
 
 - Verify that users can remove items from the cart.
 
-### TS-10: Item listing / sorting functionality
+### TS-10: Update add to cart button on the product catalog page
+
+- Verify that add to cart button changes into remove button after users add the item into the cart.
+
+### TS-11: Update remove button on the product catalog page
+
+- Verify that remove button changes into add to cart button after users remove the item from the cart.
+
+### TS-12: Item listing / sorting functionality
 
 - Verify that users can sort items on the poduct catalog page according to relevant criterias.
 
-### TS-11: View content of the item on the Item page
+### TS-13: View content of the item on the item page
 
 - Verify that users are able to view the content of the item they navigated to.
 
-### TS-12: Remove the item from the cart on the Item page
+### TS-14: Remove the item from the cart on the item page
 
 - Verify that users are able to remove the item that they are viewing successfuly from the cart.
 
-### TS-13: Add the item into the cart on the Item page
+### TS-15: Add the item into the cart on the item page
 
 - Verify that users are able to add the item they are viewing to the shopping cart.
 
-### TS-14: Return back to products page from the Item page
+### TS-16: Update add to cart button on the item page
+
+- Verify that add to cart button changes into remove button after users add the item into the cart.
+
+### TS-17: Update remove button on the item page
+
+- Verify that remove button changes into add to cart button after users remove the item from the cart.
+
+### TS-18: Return back to products page from the Item page
 
 - Verify that users are able to return back to the products page from the item page.
 
-### TS-15: Shopping cart icon
+### TS-19: Shopping cart icon
 
 - Verify that the shopping cart icon gets updated correctly.
 
-### TS-16: View cart contents
+### TS-20: View cart contents
 
 - Verify that users can view cart content correctly.
 
-### TS-17: Remove item on the shopping cart page
+### TS-21: Remove item on the shopping cart page
 
 - Verify that users can remove correct items from shopping cart successfully.
 
-### TS-18: Continue to shopping on the shopping cart page
+### TS-22: Continue to shopping on the shopping cart page
 
 - Verify that users can continue shopping after navigating to shopping cart page.
 
-### TS-19: Proceed to checkout
+### TS-23: Proceed to checkout
 
 - Verify that users can proceed to checkout on the shopping cart page.
 
-### TS-20: Information user should provide
+### TS-24: Information user should provide
 
 - Verify that users are asked for their first name, last name and postal code.
 
-### TS-21: Checkout information
+### TS-25: Checkout information
 
 - Verify that users are able to view their payment information, shipping information and price information including tax.
 
-### TS-22: Checkout functionality
+### TS-26: Checkout functionality
 
 - Verify that users can successfully finish their checkout process after providing personal information that is needed.
 
-### TS-23: Checkout confirmation
+### TS-27: Checkout confirmation
 
 - Verify that users receive appropriate notifaction after the completion of the checkout process.
