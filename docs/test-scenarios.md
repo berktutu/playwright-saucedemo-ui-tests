@@ -10,64 +10,88 @@
 
 ### TS-02: Login functionality - Invalid
 
-- Verify that the user gets proper message after unsuccessful login attempt.
+- Verify that the user is not able to login and gets proper message after unsuccessful login attempt.
 
-### TS-03: Logout functionality
+### TS-03: User login password security
+
+- Verify that the password field is masked when the user types into the password field.
+
+### TS-04: User login with keyboard
+
+- Verify that the user is able to complete his login process using only the keyboard.
+
+### TS-05: Logout functionality
 
 - Verify that the system correctly logs out the user.
 
-### TS-04: Navbar functionality
+### TS-06: Navbar functionality
 
 - Verify that the nav bar contents navigates the user to corresponding pages.
 
-### TS-05: View items on the product catalog page
+### TS-07: View items on the product catalog page
 
 - Verify that users can view items on the product catalog page.
 
-### TS-06: Add to cart on the product catalog page
+### TS-08: Add to cart on the product catalog page
 
 - Verify that users can add items into the cart.
 
-### TS-07: Remove from the cart on the product catalog page
+### TS-09: Remove from the cart on the product catalog page
 
 - Verify that users can remove items from the cart.
 
-### TS-08: Item listing / sorting functionality
+### TS-10: Item listing / sorting functionality
 
 - Verify that users can sort items on the poduct catalog page according to relevant criterias.
 
-### TS-09: View content of the item on the Item page
+### TS-11: View content of the item on the Item page
 
 - Verify that users are able to view the content of the item they navigated to.
 
-### TS-10: Remove the item from the cart on the Item page
+### TS-12: Remove the item from the cart on the Item page
 
 - Verify that users are able to remove the item that they are viewing successfuly from the cart.
 
-### TS-11: Add the item from the cart on the Item page
+### TS-13: Add the item into the cart on the Item page
 
 - Verify that users are able to add the item they are viewing to the shopping cart.
 
-### TS-12: Shopping cart icon
+### TS-14: Return back to products page from the Item page
+
+- Verify that users are able to return back to the products page from the item page.
+
+### TS-15: Shopping cart icon
 
 - Verify that the shopping cart icon gets updated correctly.
 
-### TS-13: View cart contents
+### TS-16: View cart contents
 
 - Verify that users can view cart content correctly.
 
-### TS-14: Remove item on the shopping cart page
+### TS-17: Remove item on the shopping cart page
 
 - Verify that users can remove correct items from shopping cart successfully.
 
-### TS-15: Continue to shopping on the shopping cart page
+### TS-18: Continue to shopping on the shopping cart page
 
 - Verify that users can continue shopping after navigating to shopping cart page.
 
-### TS-16: Proceed to checkout
+### TS-19: Proceed to checkout
 
 - Verify that users can proceed to checkout on the shopping cart page.
 
-### TS-17: Checkout functionality
+### TS-20: Information user should provide
+
+- Verify that users are asked for their first name, last name and postal code.
+
+### TS-21: Checkout information
+
+- Verify that users are able to view their payment information, shipping information and price information including tax.
+
+### TS-22: Checkout functionality
 
 - Verify that users can successfully finish their checkout process after providing personal information that is needed.
+
+### TS-23: Checkout confirmation
+
+- Verify that users receive appropriate notifaction after the completion of the checkout process.

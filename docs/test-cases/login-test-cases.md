@@ -331,3 +331,5 @@
 ()
 
 ---
+
+**Note:** Additional test cases, such as entering special characters, performing multiple invalid login attempts, and verifying session timeout, could be included. However, since the SauceDemo application does not support these functionalities, these cases cannot be executed.
