@@ -18,15 +18,15 @@ Users should be able to type their password and the password should be masked.
 
 Users should be able to navigate through the login page using only the keyboard without mouse action.
 
-## REQ-06: Navbar
+## REQ-05: Navbar
 
 Users should be able to interact with the navbar and navigate to related pages.
 
-## REQ-07: Logout
+## REQ-06: Logout
 
 Users should be able to logout from their account.
 
-## REQ-08: Product catalog
+## REQ-07: Product catalog
 
 Users should be able to:
 
@@ -35,11 +35,11 @@ Users should be able to:
 3. Remove products from the product catalog.
 4. Add to cart and remove buttons should be updated as the item is added and removed.
 
-## REQ-09: Item listing
+## REQ-08: Item listing
 
 Users should be able to list the order of the items according to the selected preference.
 
-## REQ-10: Item page
+## REQ-09: Item page
 
 Users should be able to:
 
@@ -48,7 +48,7 @@ Users should be able to:
 3. Add to cart and remove buttons should be updated as the item is added and removed.
 4. Return back to the products page.
 
-## REQ-11: Shopping cart
+## REQ-10: Shopping cart
 
 Users should be able to:
 
@@ -57,7 +57,7 @@ Users should be able to:
 3. Choose to proceed to checkout if the cart contains at least one item or continue shopping.
 4. View the content of their shopping cart, ensuring right items are displayed.
 
-## REQ-12: Checkout process
+## REQ-11: Checkout process
 
 1. Users should provide first name, last name and postal code before proceeding to checkout.
 2. Users should be able to view their payment information, shipping information and price information including tax.
