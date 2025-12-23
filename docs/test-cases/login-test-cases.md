@@ -332,4 +332,80 @@
 
 ---
 
+### Test Info
+
+| Field            | Description                                 |
+| ---------------- | ------------------------------------------- |
+| Test Case ID     | TC-LOGIN-10                                 |
+| Title            | Verify username is not trimmed during login |
+| Module / Feature | Login                                       |
+| Type             | Functional                                  |
+| Priority         | P3                                          |
+| Preconditions    | User is on login page                       |
+| Test Data        | " standard_user " (spaces) / secret_sauce   |
+| Environment      | https://www.saucedemo.com                   |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                                        | Expected Result                                                  |
+| ------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 1       | Navigate to https://www.saucedemo.com                                         | Login page is displayed                                          |
+| 2       | Enter the username into username field with space at the start and at the end | Username field allows user input                                 |
+| 3       | Enter the valid password into the password field                              | Password field allows user input                                 |
+| 4       | Click the login button                                                        | Login is not allowed. User receives an appropriate error message |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
+
+### Test Info
+
+| Field            | Description                                 |
+| ---------------- | ------------------------------------------- |
+| Test Case ID     | TC-LOGIN-11                                 |
+| Title            | Verify password is not trimmed during login |
+| Module / Feature | Login                                       |
+| Type             | Functional                                  |
+| Priority         | P3                                          |
+| Preconditions    | User is on login page                       |
+| Test Data        | standard_user / " secret_sauce " (spaces)   |
+| Environment      | https://www.saucedemo.com                   |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                                            | Expected Result                                                  |
+| ------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 1       | Navigate to https://www.saucedemo.com                                             | Login page is displayed                                          |
+| 2       | Enter the valid username into the username field                                  | Username field allows user input                                 |
+| 3       | Enter the password into the password field with space at the start and at the end | Password field allows user input                                 |
+| 4       | Click the login button                                                            | Login is not allowed. User receives an appropriate error message |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
+
 **Note:** Additional test cases, such as entering special characters, performing multiple invalid login attempts, and verifying session timeout, could be included. However, since the SauceDemo application does not support these functionalities, these cases cannot be executed.
