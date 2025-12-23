@@ -14,7 +14,7 @@
 | Title            | Verify user can navigate to Products page using the navbar |
 | Module / Feature | Navbar                                                     |
 | Type             | Functional                                                 |
-| Priority         | P1                                                         |
+| Priority         | P2                                                         |
 | Preconditions    | User is logged in and on homepage (Products page)          |
 | Test Data        |                                                            |
 | Environment      | https://www.saucedemo.com                                  |
@@ -51,7 +51,7 @@
 | Title            | Verify user can navigate to About page using the navbar |
 | Module / Feature | Navbar                                                  |
 | Type             | Functional                                              |
-| Priority         | P1                                                      |
+| Priority         | P2                                                      |
 | Preconditions    | User is logged in                                       |
 | Test Data        |                                                         |
 | Environment      | https://www.saucedemo.com                               |
