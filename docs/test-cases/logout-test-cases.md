@@ -1,5 +1,7 @@
 # Logout Functionality test cases of SauceDemo
 
+**Note:** Additional test cases, such as logging out from pages with high risk or security could be included. However, because the logout functionality is global and the SauceDemo application does not have any security precautions, extensive or selective testing is not needed.
+
 ### Test Info
 
 | Field            | Description               |
@@ -72,5 +74,3 @@
 ()
 
 ---
-
-**Note:** Additional test cases, such as logging out from pages with high risk or security could be included. However, because the logout functionality is global and the SauceDemo application does not have any security precautions, extensive or selective testing is not needed.
