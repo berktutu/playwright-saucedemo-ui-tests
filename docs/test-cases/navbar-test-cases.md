@@ -27,7 +27,7 @@
 | ------- | ---------------------------------------- | ----------------------------------- |
 | 1       | Click on the first item on products page | The selected item page is displayed |
 | 2       | Click on the navbar                      | Navbar menu is displayed            |
-| 2       | Click on the text "All Items"            | User is navigated to Products page  |
+| 3       | Click on the text "All Items"            | User is navigated to Products page  |
 
 ---
 
