@@ -78,7 +78,7 @@
 
 ### TS-19: Shopping cart icon
 
-- Verify that the shopping cart icon gets updated correctly.
+- Verify that the shopping cart icon navigates to shopping cart page and gets updated correctly.
 
 ### TS-20: View cart contents
 
