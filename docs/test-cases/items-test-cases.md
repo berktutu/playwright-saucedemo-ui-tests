@@ -20,14 +20,14 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                               |
-| ------- | ----------------------------------------------------- | --------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page |
-| 2       | Verify that displayed item has product name           | Item has product name                         |
-| 3       | Verify that displayed item has description            | Item has description                          |
-| 4       | Verify that displayed item has price                  | Item has price                                |
-| 5       | Verify that displayed item has picture                | Item has picture                              |
-| 6       | Verify that displayed item has button to add to cart  | Item has add to cart button                   |
+| Step No | Action                                               | Expected Result                               |
+| ------- | ---------------------------------------------------- | --------------------------------------------- |
+| 1       | Click the name of the first product in the list      | User is navigated to the selected item's page |
+| 2       | Verify that displayed item has product name          | Item has product name                         |
+| 3       | Verify that displayed item has description           | Item has description                          |
+| 4       | Verify that displayed item has price                 | Item has price                                |
+| 5       | Verify that displayed item has picture               | Item has picture                              |
+| 6       | Verify that displayed item has button to add to cart | Item has add to cart button                   |
 
 ---
 
@@ -63,8 +63,8 @@
 
 | Step No | Action                                                                                       | Expected Result                               |
 | ------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| 1       | Get the product name, description, price and picture of "Sauce Labs Backpack"                |                                               |
-| 2       | Click on the item with the text "Sauce Labs Backpack"                                        | User is navigated to the selected item's page |
+| 1       | Get the product name, description, price and picture of first item in the list               |                                               |
+| 2       | Click the name of the first product in the list                                              | User is navigated to the selected item's page |
 | 3       | Verify product name, description, price, and image match between Products page and Item page | Item informations are matching                |
 
 ---
@@ -99,11 +99,11 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                   |
-| ------- | ----------------------------------------------------- | ------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page     |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to Remove button       |
-| 3       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page |
+| Step No | Action                                          | Expected Result                                   |
+| ------- | ----------------------------------------------- | ------------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the selected item's page     |
+| 2       | Click on the Add to cart button                 | Add to cart button changes to Remove button       |
+| 3       | Click the shopping cart icon                    | Added item is displayed on the shopping cart page |
 
 ---
 
@@ -137,15 +137,15 @@
 
 ### Test Steps
 
-| Step No | Action                                                                 | Expected Result                                                   |
-| ------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack"                  | User is navigated to the selected item's page                     |
-| 2       | Click on the Add to cart button                                        | Add to cart button changes to Remove button                       |
-| 3       | Click the shopping cart icon                                           | Added item is displayed on the shopping cart page                 |
-| 4       | Click on Continue Shopping button                                      | User is navigated back to the products page                       |
-| 5       | Click on the previously added item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                     |
-| 6       | Click on the Remove button                                             | Remove button changes to Add to cart button                       |
-| 7       | Click the shopping cart icon                                           | The removed item is no longer displayed on the shopping cart page |
+| Step No | Action                                          | Expected Result                                                   |
+| ------- | ----------------------------------------------- | ----------------------------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the selected item's page                     |
+| 2       | Click on the Add to cart button                 | Add to cart button changes to Remove button                       |
+| 3       | Click the shopping cart icon                    | Added item is displayed on the shopping cart page                 |
+| 4       | Click on Continue Shopping button               | User is navigated back to the products page                       |
+| 5       | Click the name of the first product in the list | User is navigated to the selected item's page                     |
+| 6       | Click on the Remove button                      | Remove button changes to Add to cart button                       |
+| 7       | Click the shopping cart icon                    | The removed item is no longer displayed on the shopping cart page |
 
 ---
 
@@ -180,7 +180,7 @@
 
 | Step No | Action                                                        | Expected Result                                                 |
 | ------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack"         | User is navigated to the selected item's page                   |
+| 1       | Click the name of the first product in the list               | User is navigated to the selected item's page                   |
 | 2       | Verify the presence and visibility of Back to products button | Back to products button is visible and present on the item page |
 
 ---
@@ -215,10 +215,10 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                               |
-| ------- | ----------------------------------------------------- | --------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page |
-| 2       | Click on the Back to products button                  | User is navigated back to the Products page   |
+| Step No | Action                                          | Expected Result                               |
+| ------- | ----------------------------------------------- | --------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the selected item's page |
+| 2       | Click on the Back to products button            | User is navigated back to the Products page   |
 
 ---
 
@@ -252,12 +252,12 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                   |
-| ------- | ----------------------------------------------------- | ------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page     |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button       |
-| 3       | Refresh the page                                      | The button and the cart icon remains the same     |
-| 4       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page |
+| Step No | Action                                          | Expected Result                                   |
+| ------- | ----------------------------------------------- | ------------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the selected item's page     |
+| 2       | Click on the Add to cart button                 | Add to cart button changes to remove button       |
+| 3       | Refresh the page                                | The button and the cart icon remains the same     |
+| 4       | Click the shopping cart icon                    | Added item is displayed on the shopping cart page |
 
 ---
 
@@ -291,13 +291,13 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                                      |
-| ------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                        |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button                          |
-| 3       | Click on the Back to Products button                  | User is navigated back to the Products page                          |
-| 4       | Verify the item's state on the Products page          | Previously added item has Remove button on the Products page as well |
-| 5       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page                    |
+| Step No | Action                                          | Expected Result                                                      |
+| ------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the selected item's page                        |
+| 2       | Click on the Add to cart button                 | Add to cart button changes to remove button                          |
+| 3       | Click on the Back to Products button            | User is navigated back to the Products page                          |
+| 4       | Verify the item's state on the Products page    | Previously added item has Remove button on the Products page as well |
+| 5       | Click the shopping cart icon                    | Added item is displayed on the shopping cart page                    |
 
 ---
 
