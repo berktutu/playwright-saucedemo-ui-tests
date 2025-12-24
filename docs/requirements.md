@@ -65,7 +65,7 @@ Users should be able to:
 
 ## REQ-11: Checkout process
 
-1. Users should be able to proceed to checkout but only while having at least one item in the cart.
+1. Users should be able to proceed to checkout but while having at least one item in the cart.
 2. Users should provide first name, last name and postal code before proceeding to checkout.
 3. Users should be able to view their item details in the cart, payment information, shipping information and price information including tax.
 4. Users should be able to complete checkout successfuly after providing personal information that is needed.
