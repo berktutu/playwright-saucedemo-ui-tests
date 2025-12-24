@@ -37,7 +37,12 @@ Users should be able to:
 
 ## REQ-08: Item listing
 
-Users should be able to list the order of the items according to the selected preference.
+Users should be able to list the order of the items according to:
+
+1. Name A to Z
+2. Name Z to A
+3. Price low to high
+4. Price high to low
 
 ## REQ-09: Item page
 
