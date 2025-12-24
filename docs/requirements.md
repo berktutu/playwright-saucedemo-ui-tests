@@ -49,7 +49,7 @@ Users should be able to list the order of the items according to:
 
 Users should be able to:
 
-1. View the content of the selected item from the catalog.
+1. View the content of the selected item from the catalog. (Picture, Title, Description, Price, Add to cart button)
 2. Add and remove the item from the cart.
 3. Add to cart and remove buttons should be updated as the item is added and removed.
 4. Return back to the products page.
