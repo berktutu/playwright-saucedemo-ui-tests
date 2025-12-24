@@ -67,6 +67,11 @@ Users should be able to:
 
 1. Users should be able to proceed to checkout but only while having at least one item in the cart.
 2. Users should provide first name, last name and postal code before proceeding to checkout.
-3. Users should be able to view their payment information, shipping information and price information including tax.
+3. Users should be able to view their item details in the cart, payment information, shipping information and price information including tax.
 4. Users should be able to complete checkout successfuly after providing personal information that is needed.
 5. After the completion of the checkout process users should recieve confirmation message.
+6. Users should be able to cancel the checkout process anytime they want.
+
+## REQ-12: Page titles
+
+Users should be able to see what page they are on except item page.
