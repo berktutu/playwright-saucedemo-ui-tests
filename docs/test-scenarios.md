@@ -112,6 +112,14 @@
 
 - Verify that users receive appropriate notifaction after the completion of the checkout process.
 
-### TS-28: Page Title
+### TS-28: Products page title
 
-- Verify that users can view what page they are on except item page.
+- Verify that users can view they are on Products page.
+
+### TS-29: Shopping cart page title
+
+- Verify that users can view they are on Shopping Cart page.
+
+### TS-30: Checkout process page titles
+
+- Verify that users can view what stage they are on checkout process.
