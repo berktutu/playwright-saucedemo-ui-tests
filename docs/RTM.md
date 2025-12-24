@@ -12,3 +12,9 @@
 | REQ-07.2       | TS-08        | TC-PRODUCTS-03                   |           | Covered |
 | REQ-07.3       | TS-09        | TC-PRODUCTS-04                   |           | Covered |
 | REQ-07.4       | TS-10, TS-11 | TC-PRODUCTS-03,04                |           | Covered |
+| REQ-08         | TS-12        | TC-SORT-01,02,09                 |           | Covered |
+| REQ-08.1       | TS-12        | TC-SORT-03                       |           | Covered |
+| REQ-08.2       | TS-12        | TC-SORT-04                       |           | Covered |
+| REQ-08.3       | TS-12        | TC-SORT-05                       |           | Covered |
+| REQ-08.4       | TS-12        | TC-SORT-06                       |           | Covered |
+| REQ-08.5       | TS-12        | TC-SORT-07,08                    |           | Covered |
