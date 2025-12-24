@@ -57,12 +57,13 @@
 
 ### Test Steps
 
-| Step No | Action                                        | Expected Result         |
-| ------- | --------------------------------------------- | ----------------------- |
-| 1       | Verify that displayed items have product name | Items have product name |
-| 2       | Verify that displayed items have description  | Items have description  |
-| 3       | Verify that displayed items have price        | Items have price        |
-| 4       | Verify that displayed items have picture      | Items have picture      |
+| Step No | Action                                         | Expected Result          |
+| ------- | ---------------------------------------------- | ------------------------ |
+| 1       | Verify that displayed items have product names | Items have product names |
+| 2       | Verify that displayed items have descriptions  | Items have descriptions  |
+| 3       | Verify that displayed items have prices        | Items have prices        |
+| 4       | Verify that displayed items have pictures      | Items have pictures      |
+| 4       | Verify that displayed items have buttons       | Items have buttons       |
 
 ---
 
