@@ -312,7 +312,7 @@
 | Title            | Verify sort dropdown container has dropdown indicator icon |
 | Module / Feature | Sort                                                       |
 | Type             | Functional                                                 |
-| Priority         | P2                                                         |
+| Priority         | P3                                                         |
 | Preconditions    | User is logged in and on homepage (Products page)          |
 | Test Data        |                                                            |
 | Environment      | https://www.saucedemo.com                                  |
