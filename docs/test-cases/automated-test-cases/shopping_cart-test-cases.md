@@ -854,3 +854,39 @@
 | 2       | Click the shopping cart icon                              | User is navigated to Shopping Cart page                            |
 | 3       | Verify the shopping cart has the item that has been added | Shopping cart has the item displayed                               |
 | 4       | Refresh the page                                          | Shopping cart state remains the same                               |
+
+### Test Info
+
+| Field            | Description                                              |
+| ---------------- | -------------------------------------------------------- |
+| Test Case ID     | TC-SCART-24                                              |
+| Title            | Verify users can indicate they are on Shopping Cart page |
+| Module / Feature | Shopping Cart                                            |
+| Type             | Functional                                               |
+| Priority         | P3                                                       |
+| Preconditions    | User is logged in and on homepage (Products page)        |
+| Test Data        |                                                          |
+| Environment      | https://www.saucedemo.com                                |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                                     | Expected Result                                            |
+| ------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 1       | Click the shopping cart icon                                               | User is navigated to Shopping Cart page                    |
+| 2       | Verify if there is a visible text indicating you are on Shopping Cart page | There is a text indicating this page is Shopping Cart page |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
