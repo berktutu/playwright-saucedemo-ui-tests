@@ -61,11 +61,12 @@ Users should be able to:
 1. See shopping cart icon getting updated correctly and navigates users to Shopping Cart page.
 2. View the content of their shopping cart, ensuring right items are displayed.
 3. Remove items from the cart.
-4. Choose to proceed to checkout if the cart contains at least one item or continue shopping.
+4. Choose to proceed to checkout item or continue shopping.
 
 ## REQ-11: Checkout process
 
-1. Users should provide first name, last name and postal code before proceeding to checkout.
-2. Users should be able to view their payment information, shipping information and price information including tax.
-3. Users should be able to complete checkout successfuly after providing personal information that is needed.
-4. After the completion of the checkout process users should recieve confirmation message.
+1. Users should be able to proceed to checkout but only while having at least one item in the cart.
+2. Users should provide first name, last name and postal code before proceeding to checkout.
+3. Users should be able to view their payment information, shipping information and price information including tax.
+4. Users should be able to complete checkout successfuly after providing personal information that is needed.
+5. After the completion of the checkout process users should recieve confirmation message.
