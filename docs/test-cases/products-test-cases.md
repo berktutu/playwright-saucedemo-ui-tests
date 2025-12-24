@@ -117,9 +117,48 @@
 
 ### Test Info
 
+| Field            | Description                                                              |
+| ---------------- | ------------------------------------------------------------------------ |
+| Test Case ID     | TC-PRODUCTS-04                                                           |
+| Title            | Verify Products page state remains the same after going to shopping cart |
+| Module / Feature | Products                                                                 |
+| Type             | Functional                                                               |
+| Priority         | P2                                                                       |
+| Preconditions    | User is logged in and on homepage (Products page)                        |
+| Test Data        |                                                                          |
+| Environment      | https://www.saucedemo.com                                                |
+| Depends on       | TC-PRODUCTS-03                                                           |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                         | Expected Result                                                                               |
+| ------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1       | Click the Add to cart button for the first product in the list | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1) |
+| 2       | Click the shopping cart icon                                   | Added items are displayed on the shopping cart page                                           |
+| 3       | Click on Continue Shopping button                              | User is navigated back to the products page                                                   |
+| 4       | Verify if the items are still added                            | Previously added items have Remove button active and shopping cart is in correct state (1)    |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
+
+### Test Info
+
 | Field            | Description                                       |
 | ---------------- | ------------------------------------------------- |
-| Test Case ID     | TC-PRODUCTS-04                                    |
+| Test Case ID     | TC-PRODUCTS-05                                    |
 | Title            | Verify user can remove an item on Products page   |
 | Module / Feature | Products                                          |
 | Type             | Functional                                        |
@@ -127,7 +166,7 @@
 | Preconditions    | User is logged in and on homepage (Products page) |
 | Test Data        |                                                   |
 | Environment      | https://www.saucedemo.com                         |
-| Depends on       | TC-PRODUCTS-01, TC-PRODUCTS-02, TC-PRODUCTS-03    |
+| Depends on       | TC-PRODUCTS-03, TC-PRODUCTS-04                    |
 
 ---
 
@@ -159,7 +198,7 @@
 
 | Field            | Description                                         |
 | ---------------- | --------------------------------------------------- |
-| Test Case ID     | TC-PRODUCTS-05                                      |
+| Test Case ID     | TC-PRODUCTS-06                                      |
 | Title            | Verify user can add multiple items on Products page |
 | Module / Feature | Products                                            |
 | Type             | Functional                                          |
@@ -178,7 +217,6 @@
 | 1       | Click the Add to cart button for the first product in the list | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1) |
 | 2       | Click the Add to cart button for the last product in the list  | Add to cart button changes to remove button and shopping cart icon gets updated correctly (2) |
 | 3       | Click the shopping cart icon                                   | Added items are displayed on the shopping cart page                                           |
-| 4       | Click the Remove button for the both items that were added     | Remove buttons change to Add to cart button and shopping cart gets updated correctly (empty)  |
 
 ---
 
@@ -198,7 +236,7 @@
 
 | Field            | Description                                            |
 | ---------------- | ------------------------------------------------------ |
-| Test Case ID     | TC-PRODUCTS-06                                         |
+| Test Case ID     | TC-PRODUCTS-07                                         |
 | Title            | Verify user can remove multiple items on Products page |
 | Module / Feature | Products                                               |
 | Type             | Functional                                             |
@@ -206,7 +244,7 @@
 | Preconditions    | User is logged in and on homepage (Products page)      |
 | Test Data        |                                                        |
 | Environment      | https://www.saucedemo.com                              |
-| Depends on       | TC-PRODUCTS-04                                         |
+| Depends on       | TC-PRODUCTS-04, TC-PRODUCTS-05                         |
 
 ---
 
@@ -217,6 +255,8 @@
 | 1       | Click the Add to cart button for the first product in the list | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1) |
 | 2       | Click the Add to cart button for the last product in the list  | Add to cart button changes to remove button and shopping cart icon gets updated correctly (2) |
 | 3       | Click the shopping cart icon                                   | Added items are displayed on the shopping cart page                                           |
+| 4       | Click on Continue Shopping button                              | User is navigated back to the products page                                                   |
+| 5       | Click the Remove button for the both items that were added     | Remove buttons change to Add to cart button and shopping cart gets updated correctly (empty)  |
 
 ---
 
