@@ -102,12 +102,16 @@
 
 ### TS-25: Checkout information
 
-- Verify that users are able to view their payment information, shipping information and price information including tax.
+- Verify that users are able to view their item details in the cart, payment information, shipping information and price information including tax.
 
 ### TS-26: Checkout functionality
 
-- Verify that users can successfully finish their checkout process after providing personal information that is needed.
+- Verify that users can successfully finish their checkout process after providing personal information that is needed or cancel the checkout process anytime they want
 
 ### TS-27: Checkout confirmation
 
 - Verify that users receive appropriate notifaction after the completion of the checkout process.
+
+### TS-28: Page Title
+
+- Verify that users can view what page they are on except item page.
