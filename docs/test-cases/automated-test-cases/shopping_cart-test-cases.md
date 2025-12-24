@@ -829,3 +829,28 @@
 ()
 
 ---
+
+### Test Info
+
+| Field            | Description                                                           |
+| ---------------- | --------------------------------------------------------------------- |
+| Test Case ID     | TC-SCART-23                                                           |
+| Title            | Verify shopping cart state remains the same after refreshing the page |
+| Module / Feature | Shopping Cart                                                         |
+| Type             | Functional                                                            |
+| Priority         | P1                                                                    |
+| Preconditions    | User is logged in and on homepage (Products page)                     |
+| Test Data        |                                                                       |
+| Environment      | https://www.saucedemo.com                                             |
+| Depends on       | TC-SCART-03                                                           |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                    | Expected Result                                                    |
+| ------- | --------------------------------------------------------- | ------------------------------------------------------------------ |
+| 1       | Add the first item in the list to the cart                | Shopping cart icon gets updated correctly with the icon count of 1 |
+| 2       | Click the shopping cart icon                              | User is navigated to Shopping Cart page                            |
+| 3       | Verify the shopping cart has the item that has been added | Shopping cart has the item displayed                               |
+| 4       | Refresh the page                                          | Shopping cart state remains the same                               |
