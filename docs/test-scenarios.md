@@ -50,7 +50,7 @@
 
 ### TS-12: Item listing / sorting functionality
 
-- Verify that users can sort items on the poduct catalog page according to relevant criterias.
+- Verify that users can sort items on the poduct catalog page correctly according to relevant criterias.
 
 ### TS-13: View content of the item on the item page
 
