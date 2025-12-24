@@ -87,7 +87,7 @@
 | Preconditions    | User is logged in and on homepage (Products page) |
 | Test Data        |                                                   |
 | Environment      | https://www.saucedemo.com                         |
-| Dependency       | TC-PRODUCTS-01                                    |
+| Depends on       | TC-PRODUCTS-01                                    |
 
 ---
 
@@ -124,7 +124,7 @@
 | Preconditions    | User is logged in and on homepage (Products page) |
 | Test Data        |                                                   |
 | Environment      | https://www.saucedemo.com                         |
-| Dependency       | TC-PRODUCTS-01, TC-PRODUCTS-03                    |
+| Depends on       | TC-PRODUCTS-01, TC-PRODUCTS-03                    |
 
 ---
 
