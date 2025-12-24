@@ -43,6 +43,7 @@ Users should be able to list the order of the items according to:
 2. Name Z to A
 3. Price low to high
 4. Price high to low
+5. Sorting should work and update correctly
 
 ## REQ-09: Item page
 
