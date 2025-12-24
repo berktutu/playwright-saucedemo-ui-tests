@@ -2,6 +2,8 @@
 
 **Note:** Additional test cases, such as more detailed verification of item information, could be added. But because the SauceDemo is a demo application and the full documentation is not available. Further detailed checks are not possible.
 
+**Note:** Only the presence of item information and product images can be verified, as there is no reference document to prove the correctness of these informations. Accuracy of the data on the page can not be tested.
+
 ### Test Info
 
 | Field            | Description                                       |
@@ -54,12 +56,12 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                 |
-| ------- | ----------------------------------------------------- | ------------------------------- |
-| 1       | Verify that displayed items have correct product name | Items have correct product name |
-| 2       | Verify that displayed items have correct description  | Items have correct description  |
-| 3       | Verify that displayed items have correct price        | Items have correct price        |
-| 4       | Verify that displayed items have correct picture      | Items have correct picture      |
+| Step No | Action                                        | Expected Result         |
+| ------- | --------------------------------------------- | ----------------------- |
+| 1       | Verify that displayed items have product name | Items have product name |
+| 2       | Verify that displayed items have description  | Items have description  |
+| 3       | Verify that displayed items have price        | Items have price        |
+| 4       | Verify that displayed items have picture      | Items have picture      |
 
 ---
 
