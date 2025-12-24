@@ -99,11 +99,11 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                                                               |
-| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                                                 |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to Remove button and shopping cart icon gets updated correctly (1) |
-| 3       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page                                             |
+| Step No | Action                                                | Expected Result                                   |
+| ------- | ----------------------------------------------------- | ------------------------------------------------- |
+| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page     |
+| 2       | Click on the Add to cart button                       | Add to cart button changes to Remove button       |
+| 3       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page |
 
 ---
 
@@ -137,15 +137,15 @@
 
 ### Test Steps
 
-| Step No | Action                                                                 | Expected Result                                                                                   |
-| ------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack"                  | User is navigated to the selected item's page                                                     |
-| 2       | Click on the Add to cart button                                        | Add to cart button changes to Remove button and shopping cart icon gets updated correctly (1)     |
-| 3       | Click the shopping cart icon                                           | Added item is displayed on the shopping cart page                                                 |
-| 4       | Click on Continue Shopping button                                      | User is navigated back to the products page                                                       |
-| 5       | Click on the previously added item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                                                     |
-| 6       | Click on the Remove button                                             | Remove button changes to Add to cart button and shopping cart icon gets updated correctly (empty) |
-| 7       | Click the shopping cart icon                                           | The removed item is no longer displayed on the shopping cart page                                 |
+| Step No | Action                                                                 | Expected Result                                                   |
+| ------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 1       | Click on the item with the text "Sauce Labs Backpack"                  | User is navigated to the selected item's page                     |
+| 2       | Click on the Add to cart button                                        | Add to cart button changes to Remove button                       |
+| 3       | Click the shopping cart icon                                           | Added item is displayed on the shopping cart page                 |
+| 4       | Click on Continue Shopping button                                      | User is navigated back to the products page                       |
+| 5       | Click on the previously added item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                     |
+| 6       | Click on the Remove button                                             | Remove button changes to Add to cart button                       |
+| 7       | Click the shopping cart icon                                           | The removed item is no longer displayed on the shopping cart page |
 
 ---
 
@@ -252,12 +252,12 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                                                               |
-| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                                                 |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1) |
-| 3       | Refresh the page                                      | The button and the cart icon remains the same                                                 |
-| 4       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page                                             |
+| Step No | Action                                                | Expected Result                                   |
+| ------- | ----------------------------------------------------- | ------------------------------------------------- |
+| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page     |
+| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button       |
+| 3       | Refresh the page                                      | The button and the cart icon remains the same     |
+| 4       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page |
 
 ---
 
@@ -291,13 +291,13 @@
 
 ### Test Steps
 
-| Step No | Action                                                | Expected Result                                                                                                         |
-| ------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                                                                           |
-| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1)                           |
-| 3       | Click on the Back to Products button                  | User is navigated back to the Products page                                                                             |
-| 4       | Verify the item's state on the Products page          | Previously added item has button Remove on the Products page as well and shopping cart icon still has correct state (1) |
-| 5       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page                                                                       |
+| Step No | Action                                                | Expected Result                                                      |
+| ------- | ----------------------------------------------------- | -------------------------------------------------------------------- |
+| 1       | Click on the item with the text "Sauce Labs Backpack" | User is navigated to the selected item's page                        |
+| 2       | Click on the Add to cart button                       | Add to cart button changes to remove button                          |
+| 3       | Click on the Back to Products button                  | User is navigated back to the Products page                          |
+| 4       | Verify the item's state on the Products page          | Previously added item has Remove button on the Products page as well |
+| 5       | Click the shopping cart icon                          | Added item is displayed on the shopping cart page                    |
 
 ---
 
