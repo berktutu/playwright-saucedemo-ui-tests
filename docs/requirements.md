@@ -58,10 +58,10 @@ Users should be able to:
 
 Users should be able to:
 
-1. See shopping cart icon getting updated correctly.
-2. Remove items from the cart.
-3. Choose to proceed to checkout if the cart contains at least one item or continue shopping.
-4. View the content of their shopping cart, ensuring right items are displayed.
+1. See shopping cart icon getting updated correctly and navigates users to Shopping Cart page.
+2. View the content of their shopping cart, ensuring right items are displayed.
+3. Remove items from the cart.
+4. Choose to proceed to checkout if the cart contains at least one item or continue shopping.
 
 ## REQ-11: Checkout process
 
