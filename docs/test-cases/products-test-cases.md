@@ -272,3 +272,82 @@
 ()
 
 ---
+
+### Test Info
+
+| Field            | Description                                                 |
+| ---------------- | ----------------------------------------------------------- |
+| Test Case ID     | TC-PRODUCTS-08                                              |
+| Title            | Verify the state of Products page after refreshing the page |
+| Module / Feature | Products                                                    |
+| Type             | Functional                                                  |
+| Priority         | P2                                                          |
+| Preconditions    | User is logged in and on homepage (Products page)           |
+| Test Data        |                                                             |
+| Environment      | https://www.saucedemo.com                                   |
+| Depends on       | TC-PRODUCTS-03                                              |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                         | Expected Result                                                                               |
+| ------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1       | Click the Add to cart button for the first product in the list | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1) |
+| 2       | Refresh the page                                               | The button and the cart icon remains the same                                                 |
+| 3       | Click the shopping cart icon                                   | Added item is displayed on the shopping cart page                                             |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
+
+### Test Info
+
+| Field            | Description                                                     |
+| ---------------- | --------------------------------------------------------------- |
+| Test Case ID     | TC-PRODUCTS-09                                                  |
+| Title            | Verify the state of Products page after navigating to Item page |
+| Module / Feature | Products                                                        |
+| Type             | Functional                                                      |
+| Priority         | P2                                                              |
+| Preconditions    | User is logged in and on homepage (Products page)               |
+| Test Data        |                                                                 |
+| Environment      | https://www.saucedemo.com                                       |
+| Depends on       | TC-PRODUCTS-03, TC-ITEM-01                                      |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                                        | Expected Result                                                                                               |
+| ------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1       | Click the Add to cart button for the item with the text "Sauce Labs Backpack" | Add to cart button changes to remove button and shopping cart icon gets updated correctly (1)                 |
+| 2       | Click on the item with the text "Sauce Labs Backpack"                         | User is navigated to the selected item's page                                                                 |
+| 3       | Verify state of the button and shopping cart icon on the selected item's page | The button remains as Remove and shopping cart icon is still has the same state                               |
+| 4       | Click on the Back to Products button                                          | User is navigated back to the Products page                                                                   |
+| 5       | Verify if the Products page state remains the same                            | The item remains in the cart. The button is displayed as Remove and the shopping cart icon shows a count of 1 |
+| 6       | Click the shopping cart icon                                                  | Added item is displayed on the shopping cart page                                                             |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
