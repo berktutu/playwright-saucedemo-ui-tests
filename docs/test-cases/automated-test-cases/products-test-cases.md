@@ -352,3 +352,38 @@
 ()
 
 ---
+
+### Test Info
+
+| Field            | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| Test Case ID     | TC-PRODUCTS-10                                      |
+| Title            | Verify users can indicate they are on Products page |
+| Module / Feature | Products                                            |
+| Type             | Functional                                          |
+| Priority         | P3                                                  |
+| Preconditions    | User is logged in and on homepage (Products page)   |
+| Test Data        |                                                     |
+| Environment      | https://www.saucedemo.com                           |
+
+---
+
+### Test Steps
+
+| Step No | Action                                                             | Expected Result                                       |
+| ------- | ------------------------------------------------------------------ | ----------------------------------------------------- |
+| 1       | Verify if there is a visible text indicating that is Products page | There is a text indicating this page is Products page |
+
+---
+
+### Actual Result
+
+()
+
+---
+
+### Status
+
+()
+
+---
