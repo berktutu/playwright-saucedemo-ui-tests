@@ -1100,50 +1100,13 @@
 
 ### Test Info
 
-| Field            | Description                                              |
-| ---------------- | -------------------------------------------------------- |
-| Test Case ID     | TC-CHECKOUT-27                                           |
-| Title            | Verify users can indicate they are on Shopping Cart page |
-| Module / Feature | Checkout                                                 |
-| Type             | Functional                                               |
-| Priority         | P1                                                       |
-| Preconditions    | User is logged in and on homepage (Products page)        |
-| Test Data        |                                                          |
-| Environment      | https://www.saucedemo.com                                |
-| Depends on       | TC-CHECKOUT-01                                           |
-
----
-
-### Test Steps
-
-| Step No | Action                                                                     | Expected Result                                            |
-| ------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| 1       | Click the shopping cart icon                                               | User is navigated to Shopping Cart page                    |
-| 2       | Verify if there is a visible text indicating you are on Shopping Cart page | There is a text indicating this page is Shopping Cart page |
-
----
-
-### Actual Result
-
-()
-
----
-
-### Status
-
-()
-
----
-
-### Test Info
-
 | Field            | Description                                                           |
 | ---------------- | --------------------------------------------------------------------- |
-| Test Case ID     | TC-CHECKOUT-28                                                        |
+| Test Case ID     | TC-CHECKOUT-27                                                        |
 | Title            | Verify users can indicate they are on Checkout: Your Information page |
 | Module / Feature | Checkout                                                              |
 | Type             | Functional                                                            |
-| Priority         | P1                                                                    |
+| Priority         | P3                                                                    |
 | Preconditions    | User is logged in and on homepage (Products page)                     |
 | Test Data        |                                                                       |
 | Environment      | https://www.saucedemo.com                                             |
@@ -1178,11 +1141,11 @@
 
 | Field            | Description                                                           |
 | ---------------- | --------------------------------------------------------------------- |
-| Test Case ID     | TC-CHECKOUT-29                                                        |
+| Test Case ID     | TC-CHECKOUT-28                                                        |
 | Title            | Verify users can indicate they are on Checkout: Your Information page |
 | Module / Feature | Checkout                                                              |
 | Type             | Functional                                                            |
-| Priority         | P1                                                                    |
+| Priority         | P3                                                                    |
 | Preconditions    | User is logged in and on homepage (Products page)                     |
 | Test Data        |                                                                       |
 | Environment      | https://www.saucedemo.com                                             |
@@ -1221,11 +1184,11 @@
 
 | Field            | Description                                                   |
 | ---------------- | ------------------------------------------------------------- |
-| Test Case ID     | TC-CHECKOUT-30                                                |
+| Test Case ID     | TC-CHECKOUT-29                                                |
 | Title            | Verify users can indicate they are on Checkout: Complete page |
 | Module / Feature | Checkout                                                      |
 | Type             | Functional                                                    |
-| Priority         | P1                                                            |
+| Priority         | P3                                                            |
 | Preconditions    | User is logged in and on homepage (Products page)             |
 | Test Data        |                                                               |
 | Environment      | https://www.saucedemo.com                                     |
